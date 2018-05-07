@@ -1,0 +1,11 @@
+{
+  "name": "massy_node_app",
+  "version": "1.0.0",
+  "description": "introduction to node js , biginners course",
+  "main": "index.js",
+  "scripts": {
+    "test": "hello massy world"
+  },
+  "author": "Massy Gomba",
+  "license": "ISC"
+}

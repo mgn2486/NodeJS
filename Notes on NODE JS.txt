@@ -1,0 +1,63 @@
+NODE JS
+
+What is Node JS?
+
+- Javascript runtime built on Chrome's V8 Javascrtipt engine.
+- Javascript running on the server.
+- Used to build powerful, fast & scalable web applications
+- Uses an event-driven, non=-blocking I/O model.
+
+Non-Blocking I/O
+
+- Works on a single thread using non-blocking I/O calls
+- Supports tens of thousands concurrent connections.
+- Optimizes throuput and scalability in web applications with many I/O operations
+- This makes Node.js apps extremely ffast and efficient.
+
+
+What can we build with Node.js
+
+- REST API's & Backend Applications
+- Real-time Services (Chat, games , etc)
+- Blogs, CMS, Social Applications
+- Utilities & Tools
+- Anything that is not CPU-intensive
+
+
+NPM 
+
+		- Node.js Package Manager
+		- Used to install node programs/modules
+		- Easy to specify and link dependencies
+		- Modules get installed into the "node_modules" folder
+
+
+		POPULAR Modules
+
+		* Express - Web development framework
+		* Connect - Extensible HTTP server frameworks
+		* Socket.io - Server side component for websockets.
+		* Pug / Jade - Template engine inspired by HAML
+		* Mongo/ Mongoose - Wrappers to interact with MongoDB
+		* Coffee-Script - CoffeeScript compiler.
+		* Redis - Redis client Library
+ 
+
+Pckage.json File
+
+- Goes in the root of your package/ applications
+- Tells npm how your package is structuired and what to do to install it.
+    E.g
+	    {
+			"name": "myTasklist",
+			"version":"1.0.0",
+			"description":"Simple Task Manager",
+			"":"",
+			"dependencies": {
+				"body-parser":"^1.15.2",
+				"express":"^4.14.0"
+			}
+			
+		} 
+
+
