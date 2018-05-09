@@ -1,0 +1,28 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "Simple Book store application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgn2486/NodeJS.git"
+  },
+  "keywords": [
+    "Node",
+    "JS"
+  ],
+  "dependencies":{
+    "express":"*",
+    "body-parser":"*",
+    "mangoose":"*"
+  },
+  "author": "Masimba Gomba Ndadzibaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mgn2486/NodeJS/issues"
+  },
+  "homepage": "https://github.com/mgn2486/NodeJS#readme"
+}

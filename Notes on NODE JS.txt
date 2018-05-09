@@ -59,5 +59,65 @@ Pckage.json File
 			}
 			
 		} 
+		
+###########################################################################################################
 
+Now to create a node application, create a dircetory and then go to the comand line navigate to the directory
+From there execute the command
+
+"npm init"
+
+This will create a new package Json file but before hand a number of questions should be asked
+
+
+Example: Create a file called "App.js"
+
+Paste the following code:
+				
+				var http = require('http');
+
+					var hostname = '127.0.0.1';
+					var port = 3000;
+
+					var server = http.createServer((req , res) => {
+						res.statusCode = 200;
+						res.setHeader('Content-type','text/plain');
+						res.end('Hello World !!!');
+					});
+
+					server.listen ( port , hostname, () => {
+						console.log('server started on port : ' + port);
+					});
+
+
+This example only displays text on the screen. 
+
+
+
+NOW IF WE WANT TO LOAD A FILE , WE CAN DO THE FOILLOWING:
+
+					var http = require('http');
+					
+					var fs =  require('fs');
+					
+					fs.readFile('index.html', (err, html) => {
+						if(err)
+						{
+							throw err;
+						}
+					});
+					
+					var hostname = '127.0.0.1';
+					var port = 3000;
+
+					var server = http.createServer((req , res) => {
+						res.statusCode = 200;
+						res.setHeader('Content-type','text/plain');
+						res.write(html);
+						res.end();
+					});
+
+					server.listen ( port , hostname, () => {
+						console.log('server started on port : ' + port);
+					});
 
