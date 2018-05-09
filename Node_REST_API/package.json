@@ -14,10 +14,10 @@
     "Node",
     "JS"
   ],
-  "dependencies":{
-    "express":"*",
-    "body-parser":"*",
-    "mangoose":"*"
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^4.16.3",
+    "mangoose": "*"
   },
   "author": "Masimba Gomba Ndadzibaya",
   "license": "ISC",
