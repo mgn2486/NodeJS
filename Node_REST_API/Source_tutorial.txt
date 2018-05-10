@@ -1,3 +1,14 @@
 https://www.youtube.com/watch?v=eB9Fq9I5ocs
+https://www.youtube.com/watch?v=eB9Fq9I5ocs
 
 Tutorials by Traversy Media
+
+to avoid rre-running the server when executing Node JS application we can also install:
+
+nodemon
+
+command:  "npm install -g nodemon"
+
+Option 2:
+
+https://www.youtube.com/watch?v=iWp_dLR7RcE
