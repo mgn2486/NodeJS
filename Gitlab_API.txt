@@ -1,0 +1,19 @@
+Gitlab API
+
+List all Projects
+
+		https://gitlab.com/api/v4/projects?private_token=yC8hxbBg8_PdbgkyF9AQ
+
+
+Get Project by ID:
+
+		https://gitlab.com/api/v4/projects/6344929
+		
+Get project by name:
+
+
+
+Create Project:
+
+
+

@@ -1,4 +1,4 @@
-NODE JS
+NODE JS     ||      Alternative to creating a full REST full API in NodeJs use : https://vmokshagroup.com/blog/building-restful-apis-using-node-js-express-js-and-ms-sql-server/
 
 What is Node JS?
 
@@ -96,10 +96,10 @@ This example only displays text on the screen.
 
 NOW IF WE WANT TO LOAD A FILE , WE CAN DO THE FOILLOWING:
 
-					var http = require('http');
-					
+					var http = require('http');					
 					var fs =  require('fs');
 					
+					//load a file here
 					fs.readFile('index.html', (err, html) => {
 						if(err)
 						{

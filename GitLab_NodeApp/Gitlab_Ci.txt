@@ -1,0 +1,6 @@
+List all projects in GITLAB
+
+https://stackoverflow.com/questions/45068904/gitlab-list-all-the-projects-and-all-the-groups
+
+
+curl "https://<host/api/v4/projects?private_token=<your private token>"
