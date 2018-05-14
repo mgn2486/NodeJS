@@ -54,7 +54,7 @@ var  executeQuery = function(res, query){
 	});	
 }
 
-app.get('/', function (req, res) {
+app.get('https://gitlab.com/api/v4/projects?private_token=yC8hxbBg8_PdbgkyF9AQ', function (req, res) {
     res.send('Please use API end point.. ');
   });
 

@@ -3,7 +3,7 @@ var app = express();
 var sql = require("mssql");
 // config for your database
 var config = {
-    user: 'SAHL\\MasimbaN',  
+    user: 'SAHL\MasimbaN',  
     password: 'Healer2018',  
     server: 'D200053',
     database:'EmployeeDB2'
@@ -33,7 +33,7 @@ app.get('/', function (req, res) {
  
 var server = app.listen(4000, function () {
  console.log('Server is running.. on Port 4000');
- user = 'SAHL\\MasimbaN';
+ user = 'SAHL\MasimbaN';
  console.log(user);
  console.log(config);
 });
