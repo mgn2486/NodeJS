@@ -4,9 +4,10 @@ var userDetails;
 function initialize() {
     // Setting URL and headers for request
     var options = {
-        url: 'https://gitlab.com/api/v4/projects',
+        url: 'http://git.sahomeloans.com/gitlab-ci/api/v4/projects',
         headers: {
-            'User-Agent': 'request'
+            'User-Agent': 'request',
+            'Content-Type':'application/json'
         }
     };
     // Return new promise 

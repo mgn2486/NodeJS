@@ -24,32 +24,6 @@ var appRouter = function(app) {
     });
 
 
-// Start the initialization of the github data here........
-
-
-    function initialize() {
-        // Setting URL and headers for request
-        var options = {
-            url: 'https://api.github.com/users/narenaryan',
-            headers: {
-                'User-Agent': 'request'
-            }
-        };
-        // Return new promise 
-    return new Promise(function(resolve, reject) {
-        // Do async job
-           request.get(options, function(err, resp, body) {
-               if (err) {
-                   reject(err);
-               } else {
-                   resolve(JSON.parse(body));
-               }
-           })
-       })
-   }
-
-
-//End.................................
 
 
     app.get("/gitlabapi", function(req, res){
